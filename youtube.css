@@ -1,0 +1,60 @@
+body {
+    background: rgb(248, 248, 248);
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+    background: rgb(248, 248, 248);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+}
+
+.navbar.scrolled {
+    background-color: rgba(177, 177, 177, 0.411);
+    transition: background 500ms
+}
+
+#mainNavbar .navbar-brand {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: black;
+    padding-right: 1%;
+}
+
+#mainNavbar .nav-link {
+    color: rgb(31, 31, 31);
+    text-transform: uppercase;
+}
+
+#mainNavbar .nav-link:hover {
+    color: rgb(51, 51, 51);
+    text-decoration: underline;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+img {
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+@media (max-width: 1200px) {
+    h2 {
+        font-size: 2rem;
+    }
+}
+
+.lead {
+    font-size: 1rem;
+}
+
+.content {
+    margin-bottom: 100px;
+}
